@@ -34,6 +34,11 @@ Hasta ahora estabamos hablando de un repositorio local. Ahora, para asociarlo a 
 >> Hecho este paso, podríamos ver que nuestro repositorio está asociado utilizando:  
 **git remote -v**
 ***
+>>* **Retroceder a versiones anteriores**  
+Siempre que queramos volver a como lo dejamos en un cierto commit, podemos usar:  
+**git checkout "hash del commit en cuestión"**  
+El hash de un commit lo podemos reuperar utilizando el comando para visualizar todos nuestros commits.
+***
 >>* **Clonar repositorios**  
 Siempre que tengamos el enlace del repositorio a clonar podremos clonarlo sin ningún problema usando:  
 **git clone "enlace"**
